@@ -4,9 +4,9 @@
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <div class="flex flex-wrap items-center space-x-3 rtl:space-x-reverse">
                     <a href="" class="flex items-center space-x-3 rtl:space-x-reverse"><img id="butterfly_img"
-                            src="assets/images/White_Butterfly.png" class="h-8" alt="Chrysalis Logo Borboleta" /></a>
+                            src="../../public/assets/images/White_Butterfly.png" class="h-8" alt="Chrysalis Logo Borboleta" /></a>
                     <a href="" class="flex items-center space-x-3 rtl:space-x-reverse"><img
-                            src="assets/images/White_Chrysalis.png" class="h-8" alt="Chrysalis Logo Texto" /></a>
+                            src="../../public/assets/images/White_Chrysalis.png" class="h-8" alt="Chrysalis Logo Texto" /></a>
                 </div>
                 <button data-collapse-toggle="navbar-default" type="button"
                     class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-700 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -24,25 +24,25 @@
 
                         <li>
                             <a href="#"
-                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors hover:text-gray-900">Início</a>
+                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors hover:text-gray-700">Início</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors hover:text-gray-900">Sobre</a>
+                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors hover:text-gray-700">Sobre</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors hover:text-gray-900">Ajuda</a>
-                        </li>
-                        <li>
-                            <a href="#"
-                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent transition-colors hover:text-gray-900 "><img
-                                    src="assets/images/icons/cart.svg" alt="Carrinho" style="filter: invert(100%)"></a>
+                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors hover:text-gray-700">Ajuda</a>
                         </li>
                         <li>
                             <a href="#"
                                 class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent transition-colors hover:text-gray-900 "><img
-                                    src="assets/images/icons/account.svg" alt="Carrinho"
+                                    src="../../public/assets/images/icons/cart.svg" alt="Carrinho" style="filter: invert(100%)"></a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent transition-colors hover:text-gray-900 "><img
+                                    src="../../public/assets/images/icons/account.svg" alt="Carrinho"
                                     style="filter: invert(100%)"></a>
                         </li>
                     </ul>
