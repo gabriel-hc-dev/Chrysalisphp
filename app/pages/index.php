@@ -107,19 +107,19 @@
             <h2 class="text-4xl pt-16 pb-4 pl-8 font-semibold dark:text-white">Nossos Produtos</h2>
         </div>
         <section class="container mx-auto px-8 my-4">
-        <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 <?php
-                    include("card.php");
-                    include("card.php");
-                    include("card.php");
-                    include("card.php");
-                    include("card.php");
-                    include("card.php");
-                    include("card.php");
-                    include("card.php");
+                include("card.php");
+                include("card.php");
+                include("card.php");
+                include("card.php");
+                include("card.php");
+                include("card.php");
+                include("card.php");
+                include("card.php");
 
                 ?>
-                
+
             </section>
         </section>
     </main>

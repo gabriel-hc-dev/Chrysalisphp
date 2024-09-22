@@ -5,7 +5,7 @@
                 <div class="flex flex-wrap items-center space-x-3 rtl:space-x-reverse">
                     <a href="" class="flex items-center space-x-3 rtl:space-x-reverse"><img id="butterfly_img"
                             src="../../public/assets/images/White_Butterfly.png" class="h-8" alt="Chrysalis Logo Borboleta" /></a>
-                    <a href="" class="flex items-center space-x-3 rtl:space-x-reverse"><img
+                    <a href="index.php" class="flex items-center space-x-3 rtl:space-x-reverse"><img
                             src="../../public/assets/images/White_Chrysalis.png" class="h-8" alt="Chrysalis Logo Texto" /></a>
                 </div>
                 <button data-collapse-toggle="navbar-default" type="button"
@@ -23,11 +23,11 @@
                         class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-orange-500 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-orange-500 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
 
                         <li>
-                            <a href="#"
+                            <a href="index.php"
                                 class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors hover:text-gray-700">Início</a>
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="about.php"
                                 class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors hover:text-gray-700">Sobre</a>
                         </li>
                         <li>
