@@ -40,9 +40,9 @@
                                     src="../../public/assets/images/icons/cart.svg" alt="Carrinho" style="filter: invert(100%)"></a>
                         </li>
                         <li>
-                            <a href="#"
+                            <a href="login.php"
                                 class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent transition-colors hover:text-gray-900 "><img
-                                    src="../../public/assets/images/icons/account.svg" alt="Carrinho"
+                                    src="../../public/assets/images/icons/account.svg" alt="Perfil"
                                     style="filter: invert(100%)"></a>
                         </li>
                     </ul>

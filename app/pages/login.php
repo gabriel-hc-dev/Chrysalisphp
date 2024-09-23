@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="/assets/images/White_Butterfly.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link href="./output.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../../public/assets/images/White_Butterfly.png">
     <title>Chrysalis - Sua loja preferida</title>
     <style>
         @keyframes butterfly-flying {
