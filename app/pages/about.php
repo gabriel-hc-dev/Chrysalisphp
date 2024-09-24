@@ -37,18 +37,18 @@
         }
 
         #missao:hover {
-            background-color: rgba(227, 156, 75, 0.7);
-            border-color: rgba(227, 156, 75, 0.7);
+            background-color: rgb(252, 169, 73);
+            border-color: rgb(252, 169, 73);
         }
 
         #visao:hover {
-            background-color: rgba(75, 227, 103, 0.7);
-            border-color: rgba(75, 227, 103, 0.7);
+            background-color: rgb(252, 169, 73);
+            border-color: rgb(252, 169, 73);
         }
 
         #valores:hover {
-            background-color: rgba(75, 102, 227, 0.7);
-            border-color: rgba(75, 102, 227, 0.7);
+            background-color: rgb(252, 169, 73);
+            border-color: rgb(252, 169, 73);
         }
     </style>
 </head>

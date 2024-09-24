@@ -43,7 +43,7 @@
     include("header.php");
     ?>
     <main>
-        <div id="alerts" class="text-white mx-auto text-center py-4" style="background-color: rgb(24, 24, 24);">
+        <div id="alerts" class="text-white mx-auto text-center py-4 font-semibold" style="background-color: rgb(51, 44, 36);">
             <span class="mx-4">DESCONTOS IMPERDÍVEIS</span>
             <span class="mx-4">ROUPAS DE QUALIDADE</span>
         </div>
