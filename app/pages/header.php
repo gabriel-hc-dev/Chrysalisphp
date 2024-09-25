@@ -25,15 +25,15 @@
 
                         <li>
                             <a href="index.php"
-                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors hover:text-gray-700">Início</a>
+                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors duration-300 hover:text-gray-700">Início</a>
                         </li>
                         <li>
                             <a href="about.php"
-                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors hover:text-gray-700">Sobre</a>
+                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors duration-300 hover:text-gray-700">Sobre</a>
                         </li>
                         <li>
                             <a href="#"
-                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors hover:text-gray-700">Ajuda</a>
+                                class="block py-2 px-3 rounded md:hover:bg-transparent md:border-0 md:p-0 md:dark:hover:bg-transparent text-white transition-colors duration-300 hover:text-gray-700">Ajuda</a>
                         </li>
                         <li>
                             <a href="#"
