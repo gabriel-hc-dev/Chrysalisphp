@@ -3,7 +3,7 @@
         <nav class="border-gray-200 dark:bg-gray-900" style="background-color: rgb(232, 128, 13)">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <div class="flex flex-wrap items-center space-x-3 rtl:space-x-reverse">
-                    <a href="" class="flex items-center space-x-3 rtl:space-x-reverse"><img id="butterfly_img"
+                    <a href="index.php" class="flex items-center space-x-3 rtl:space-x-reverse"><img id="butterfly_img"
                             src="../../public/assets/images/White_Butterfly.png" class="h-8" alt="Chrysalis Logo Borboleta" /></a>
                     <a href="index.php" class="flex items-center space-x-3 rtl:space-x-reverse"><img
                             src="../../public/assets/images/White_Chrysalis.png" class="h-8" alt="Chrysalis Logo Texto" /></a>
