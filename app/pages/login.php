@@ -47,14 +47,14 @@
             <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0" style="width: 50%">
 
                 <div
-                    class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+                    class="w-full bg-white rounded-lg shadow dark:border md:mt-0 py-8 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
                     <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
                         <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
                             Registro de usuário
                         </h1>
                         <p class="text-sm font-light text-gray-500 dark:text-gray-400">
                             Já tem uma conta? <a href="#"
-                                class="font-medium text-orange-600 hover:underline dark:text-primary-500">Entrar</a>
+                                class="font-medium text-yellow-500  hover:underline dark:text-primary-500">Entrar</a>
                         </p>
                         <form class="space-y-4 md:space-y-6" action="#">
                             <div>
@@ -87,12 +87,12 @@
                                 </div>
                                 <div class="ml-3 text-sm">
                                     <label for="terms" class="font-light text-gray-500 dark:text-gray-300">Eu aceito os <a
-                                            class="font-medium text-orange-600 hover:underline dark:text-primary-500"
+                                            class="font-medium text-yellow-500 hover:underline dark:text-primary-500"
                                             href="#">Termos e Condições</a></label>
                                 </div>
                             </div>
                             <button type="submit"
-                                class="w-full text-white bg-orange-500 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-orange-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 hover:bg-orange-600 transition-all ">Criar
+                                class="w-full text-white bg-yellow-500 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-orange-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 hover:bg-orange-600 transition-all ">Criar
                                 conta</button>
                         </form>
                     </div>

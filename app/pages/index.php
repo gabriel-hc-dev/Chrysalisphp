@@ -43,13 +43,13 @@
     include("header.php");
     ?>
     <main>
-        <div id="alerts" class="text-white mx-auto text-center py-4 font-semibold" style="background-color: rgb(51, 44, 36);">
-            <span class="mx-4">DESCONTOS IMPERDÍVEIS</span>
-            <span class="mx-4">ROUPAS DE QUALIDADE</span>
+        <div id="alerts" class="text-white mx-auto text-center py-3 font-semibold" style="background-color: rgb(51, 44, 36);">
+            <span class="mx-4 font-normal">DESCONTOS IMPERDÍVEIS</span>
+            <span class="mx-4 font-normal">ROUPAS DE QUALIDADE</span>
         </div>
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
             <!-- Carousel wrapper -->
-            <div class="relative object-cover overflow-hidden" style="height: 700px">
+            <div class="relative object-cover overflow-hidden" style="height: 70vh">
                 <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <img src="../../public/assets/images/Logo_01.gif"
@@ -105,7 +105,7 @@
         </div>
 
         <div class="container mx-auto">
-            <h2 class="text-4xl pt-16 pb-4 pl-8 font-semibold dark:text-white">Nossos Produtos</h2>
+            <h2 class="text-4xl pt-8 pb-4 pl-8 font-semibold dark:text-white">Nossos Produtos</h2>
         </div>
         <section class="container mx-auto px-8 my-4">
             <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
