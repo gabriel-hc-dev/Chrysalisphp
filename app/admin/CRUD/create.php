@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/assets/images/White_Butterfly.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link href="./output.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="../../public/assets/images/White_Butterfly.png">
+    <link rel="icon" type="image/x-icon" href="../../../public/assets/images/White_Butterfly.png">
     <title>Chrysalis - Adicionar Produto</title>
     <style>
         @keyframes butterfly-flying {
@@ -65,28 +65,45 @@
     include("../headerAdmin.php");
     ?>
 
-    <div class="container m-auto sm:px-12">
-        <h1 class="text-2xl font-semibold my-8">Adicione um Produto</h1>
-        <form action="create.php" method="post">
-            <div class="mb-4">
+    <div class="container mx-auto sm:px-12">
+        <div class="mx-24">
+            <h1 class="text-3xl font-semibold my-8">Adicione um Produto</h1>
+            <form action="create.php" method="post">
                 <div class="mb-4">
-                    <label for="nome">Nome</label>
-                    <input type="text" name="nome" id="nome"
-                        class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
-                        required>
+                    <div class="mb-4">
+                        <label for="nome">Preço</label>
+                        <input type="text" name="nome" id="nome"
+                            class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
+                            required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="segmento">Nome</label>
+                        <input type="text" name="segmento" id="segmento"
+                            class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
+                            required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="segmento">Grupo</label>
+                        <input type="text" name="segmento" id="segmento"
+                            class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
+                            required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="segmento">Subgrupo</label>
+                        <input type="text" name="segmento" id="segmento"
+                            class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
+                            required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="segmento">Gênero</label>
+                        <input type="text" name="segmento" id="segmento"
+                            class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
+                            required>
+                    </div>
                 </div>
-                <div class="mb-6">
-                    <label for="segmento">
-                        Segmento
-                    </label>
-                    <input type="text" name="segmento" id="segmento"
-                        class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
-                        required>
-                </div>
-            </div>
-            <button
-                class="transition px-8 py-2 text-md font-medium text-white bg-sky-500 hover:bg-sky-600 rounded-lg text-center">Cadastrar</button>
-        </form>
+                <input class="bg-blue-500" type="submit" value="Cadastrar Produto">
+            </form>
+        </div>
     </div>
 
     <?php

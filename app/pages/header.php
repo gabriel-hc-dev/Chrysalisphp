@@ -46,7 +46,7 @@
             <!-- Menu Section -->
             <div class="hidden w-full md:block md:w-auto bg-yellow-500 float-left"
                 id="navbar-default">
-                <ul class="font-medium flex flex-col justify-end max-w-max flex p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-orange-500 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                <ul class="font-medium flex flex-col justify-end flex p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-orange-500 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
 
                     <li>
                         <a href="index.php"
