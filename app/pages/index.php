@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="./output.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../../public/assets/images/White_Butterfly.png">
-    <title>Chrysalis - Sua loja preferida</title>
+    <title>Chrysalis - Deletar Produto</title>
     <style>
         @keyframes butterfly-flying {
             0% {

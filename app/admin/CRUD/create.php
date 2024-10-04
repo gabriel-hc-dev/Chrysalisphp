@@ -60,65 +60,71 @@
 </head>
 
 <body>
-    <title>Adicionar Produto</title>
     <?php
     include("../headerAdmin.php");
     ?>
-
-    <div class="container mx-auto sm:px-12">
-        <div class="mx-24">
-            <h1 class="text-3xl font-semibold my-8">Adicione um Produto</h1>
-            <form action="create.php" method="post">
-                <div class="mb-4">
-                    <div class="mb-4">
-                        <label for="nome">Preço</label>
-                        <input type="text" name="nome" id="nome"
-                            class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
-                            required>
-                    </div>
-                    <div class="mb-6">
-                        <label for="segmento">Nome</label>
-                        <input type="text" name="segmento" id="segmento"
-                            class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
-                            required>
-                    </div>
-                    <div class="mb-6">
-                        <label for="segmento">Grupo</label>
-                        <input type="text" name="segmento" id="segmento"
-                            class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
-                            required>
-                    </div>
-                    <div class="mb-6">
-                        <label for="segmento">Subgrupo</label>
-                        <input type="text" name="segmento" id="segmento"
-                            class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
-                            required>
-                    </div>
-                    <div class="mb-6">
-                        <label for="segmento">Gênero</label>
-                        <input type="text" name="segmento" id="segmento"
-                            class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
-                            required>
-                    </div>
-                </div>
-                <input class="bg-blue-500" type="submit" value="Cadastrar Produto">
-            </form>
+    <main>
+        <div id="alerts" class="text-white mx-auto text-center py-3 font-semibold"
+            style="background-color: rgb(51, 44, 36);">
+            <span class="mx-4 font-normal">PÁGINA PARA ADMINISTRADORES</span>
         </div>
-    </div>
-
+        <div class="container mx-auto sm:px-12">
+            <div class="mx-24">
+                <h1 class="text-3xl font-semibold my-8">Adicione um Produto</h1>
+                <form action="create.php" method="post">
+                    <div class="mb-4">
+                        <div class="mb-4">
+                            <label for="preco">Preço</label>
+                            <input type="text" name="preco" id="preco"
+                                class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
+                                required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" id="nome"
+                                class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
+                                required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="grupo">Grupo</label>
+                            <input type="text" name="grupo" id="grupo"
+                                class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
+                                required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="subgrupo">Subgrupo</label>
+                            <input type="text" name="subgrupo" id="subgrupo"
+                                class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
+                                required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="genero">Gênero</label>
+                            <input type="text" name="genero" id="genero"
+                                class="block appearance-none w-full py-1 px-2 mb-1 text-base leading-normal bg-white text-gray-800 border border-gray-200 rounded"
+                                required>
+                        </div>
+                    </div>
+                    <button class="transition ease-in-out duration-300 px-8 py-2 mb-6 text-md font-medium text-white bg-yellow-700 hover:bg-yellow-900 rounded-lg text-center">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </main>
     <?php
     require("../../../backend/conexao.php");
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $preco = isset($_POST['preco']) ? $_POST['preco'] : "CAMPO VAZIO!";
         $nome = isset($_POST['nome']) ? $_POST['nome'] : "CAMPO VAZIO!";
-        $segmento = isset($_POST['segmento']) ? $_POST['segmento'] : "CAMPO VAZIO!";
+        $grupo = isset($_POST['grupo']) ? $_POST['grupo'] : "CAMPO VAZIO!";
+        $subgrupo = isset($_POST['subgrupo']) ? $_POST['subgrupo'] : "CAMPO VAZIO!";
+        $genero = isset($_POST['genero']) ? $_POST['genero'] : "CAMPO VAZIO!";
 
-        $sqlInsert = "INSERT INTO loja (nome_loja, segmento) VALUES (?, ?)";
+        $sqlInsert = "INSERT INTO Produto (valorProduto, descricao, grupo, subGrupo, genero) VALUES (?, ?, ?, ?, ?)";
 
-        $stmt = $conn->prepare($sqlInsert);
+        $stmt = $conexao->prepare($sqlInsert);
 
         if ($stmt) {
-            $stmt->bind_param("ss", $nome, $segmento);
+            $stmt->bind_param("sssss", $preco, $nome, $grupo, $subgrupo, $genero);
             if ($stmt->execute()) {
                 echo "<script>alert('Dados inseridos!');</script>";
             } else {
@@ -126,10 +132,10 @@
             }
             $stmt->close();
         } else {
-            die("Erro ao preparar a query: " . $conn->error);
+            die("Erro ao preparar a query: " . $conexao->error);
         }
 
-        $conn->close();
+        $conexao->close();
     }
     ?>
 
