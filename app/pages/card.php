@@ -1,4 +1,4 @@
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
     <a href="produto.php">
         <img class="p-8 rounded-t-lg" src="../../public/assets/images/Black_Butterfly.png" alt="product image" />
     </a>

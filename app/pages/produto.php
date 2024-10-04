@@ -4,9 +4,6 @@
 <head>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
-
-
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -78,7 +75,6 @@
           <img class="w-5/6 m-8" src="https://via.placeholder.com/500" alt="Camiseta Branca"
             style="height:500px; width: 500px;">
 
-
           <!-- Detalhes do produto -->
           <div class="md:w-1/2 mt-6 md:mt-0">
             <h1 class="text-3xl font-bold text-start md:text-left">Camiseta Branca Masculina</h1>
@@ -127,7 +123,6 @@
               </div>
             </div>
 
-
             <!-- Botão de Adicionar ao Carrinho -->
             <div class="mt-6">
               <button id="btn_carrinho"
@@ -166,12 +161,12 @@
 
           <!-- Botões de Filtro -->
           <div class="flex justify-center space-x-2 mt-4">
-            <button class="py-2 px-4 bg-gray-200 rounded-lg hover:bg-gray-300 duration-500">Todas</button>
-            <button class="py-2 px-4 bg-gray-200 rounded-lg hover:bg-gray-300 duration-500">5 Estrelas</button>
-            <button class="py-2 px-4 bg-gray-200 rounded-lg hover:bg-gray-300 duration-500">4 Estrelas</button>
-            <button class="py-2 px-4 bg-gray-200 rounded-lg hover:bg-gray-300 duration-500">3 Estrelas</button>
-            <button class="py-2 px-4 bg-gray-200 rounded-lg hover:bg-gray-300 duration-500">2 Estrelas</button>
-            <button class="py-2 px-4 bg-gray-200 rounded-lg hover:bg-gray-300 duration-500">1 Estrela</button>
+            <button class="py-2 px-4 bg-gray-200 rounded-lg hover:bg-gray-300 duration-500 hover:shadow hover:scale-125 hover:mx-4">Todos</button>
+            <button class="py-2 px-4 bg-gray-200 rounded-lg hover:bg-gray-300 duration-500 hover:shadow hover:scale-125 hover:mx-4">5 Estrelas</button>
+            <button class="py-2 px-4 bg-gray-200 rounded-lg hover:bg-gray-300 duration-500 hover:shadow hover:scale-125 hover:mx-4">4 Estrelas</button>
+            <button class="py-2 px-4 bg-gray-200 rounded-lg hover:bg-gray-300 duration-500 hover:shadow hover:scale-125 hover:mx-4">3 Estrelas</button>
+            <button class="py-2 px-4 bg-gray-200 rounded-lg hover:bg-gray-300 duration-500 hover:shadow hover:scale-125 hover:mx-4">2 Estrelas</button>
+            <button class="py-2 px-4 bg-gray-200 rounded-lg hover:bg-gray-300 duration-500 hover:shadow hover:scale-125 hover:mx-4">1 Estrela</button>
           </div>
 
           <!-- Exemplo de Comentário -->

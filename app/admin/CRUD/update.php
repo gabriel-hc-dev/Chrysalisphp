@@ -145,8 +145,8 @@
                     $stmt->bind_param("sssssi", $precoNovo, $nomeNovo, $grupoNovo, $subgrupoNovo, $generoNovo, $id);
 
                     if ($stmt->execute()) {
-                        echo "<script>alert('Dados alterados com sucesso!');</script>";
-                        header("Location: read.php");
+                        echo "<script>alert('Dados alterados com sucesso!');window.location.replace('read.php');</script>";
+                        header('Location: read.php');
                         exit;
                     } else {
                         die("ERRO NO UPDATE: " . $stmt->error);

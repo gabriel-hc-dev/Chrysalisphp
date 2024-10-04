@@ -98,7 +98,7 @@
                                 <td class='px-6 py-4'>" . $row["subGrupo"] . "</td>
                                 <td class='px-6 py-4'>" . $row["genero"] . "</td>
                                 <td class='px-6 py-4'>
-                                    <a href='update.php?idProduto=" . $row["idProduto"] . "' class='transition bg-blue-500 text-white ease-in-out py-2 px-4 rounded hover hover:shadow-md hover:bg-blue-600 duration-300'>Editar</a>
+                                    <a href='update.php?idProduto=" . $row["idProduto"] . "' class='transition bg-yellow-500 text-white ease-in-out py-2 px-4 rounded hover hover:shadow-md hover:bg-yellow-600 duration-300'>Editar</a>
                                     <a href='delete.php?idProduto=" . $row["idProduto"] . "' class='transition bg-yellow-500 text-white ease-in-out py-2 px-4 rounded hover hover:shadow-md hover:bg-yellow-700 duration-300 ml-4'>Deletar</a>
                                 </td>
                             </tr>";
